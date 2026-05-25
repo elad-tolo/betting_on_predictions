@@ -1,0 +1,12 @@
+# Optional dependencies for regenerating the bundled datasets under data/.
+# These are NOT required to run any of the experiments — the parquets are
+# shipped in the repository.
+#
+# Install with:  pip install -r requirements.txt -r requirements-data-gen.txt
+-r requirements.txt
+datasets>=4.2
+transformers>=4.57
+vllm>=0.11
+latex2sympy2_extended>=1.10
+math-verify>=0.8
+folktables>=0.0.12

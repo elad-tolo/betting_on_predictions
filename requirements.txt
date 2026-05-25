@@ -1,0 +1,11 @@
+# Runtime dependencies for reproducing the experiments in
+# "Semi-Supervised Hypothesis Testing by Betting on Predictions" (ICML 2026).
+# Tested on Python 3.11; versions below are the ones used to produce the
+# results in the paper.
+numpy>=2.2
+pandas>=2.2
+scikit-learn>=1.7
+matplotlib>=3.10
+tqdm>=4.67
+pyarrow>=18.1
+tabpfn>=6.3

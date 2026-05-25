@@ -1,0 +1,41 @@
+# Byte-compiled / cached Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project outputs
+logs/
+results/
+plots/
+
+# Data (large / external) — the small bundled data/ dir is tracked
+*.parquet
+!data/**/*.parquet
+data_generation/data/
+*.pkl
+
+# Misc
+*.log
